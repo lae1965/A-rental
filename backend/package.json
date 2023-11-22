@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend application for bpium system",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js"
+  },
+  "keywords": [
+    "bpium",
+    "node.js"
+  ],
+  "author": "Andrey Lashkevich lae1965@yandex.ru",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bp-api": "^0.6.2",
+    "crypto": "^1.0.1"
+  }
+}
