@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "backend application for bpium system",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js",
     "start:dev": "nodemon main.js"
@@ -17,5 +18,8 @@
     "axios": "^1.6.2",
     "bp-api": "^0.6.2",
     "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^1.0.4"
   }
 }
